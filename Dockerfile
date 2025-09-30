@@ -1,4 +1,5 @@
-FROM --platform=linux/arm64 crystallang/crystal:1.17-alpine as builder
+ARG arch
+FROM --platform=linux/${arch} crystallang/crystal:1.17-alpine as builder
 
 WORKDIR /app
 # Cache dependencies
