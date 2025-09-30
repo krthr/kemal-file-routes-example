@@ -1,4 +1,4 @@
-ARG arch
+ARG arch=arm64
 FROM --platform=linux/${arch} crystallang/crystal:1.17-alpine as builder
 
 WORKDIR /app
@@ -13,7 +13,7 @@ RUN --mount=type=cache,target=/root/.cache shards build --static --no-debug --re
 
 # ===============
 # Result image with one layer
-FROM alpine:latest
+FROM --platform=linux/${arch} alpine:latest
 WORKDIR /
 COPY --from=builder /app/bin/app-test .
 ENTRYPOINT ["/app-test"]
