@@ -1,7 +1,11 @@
 FROM alpine:edge AS base
 
 RUN apk update
-RUN apk add --update --no-cache crystal shards
+RUN apk add --update --no-cache \
+  libcrypto3 \
+  libssl3 \
+  openssl-dev \
+  crystal shards
 
 FROM base as builder
 
