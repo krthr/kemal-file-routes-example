@@ -22,7 +22,7 @@ RUN  apk add --update --no-cache \
 WORKDIR /app
 COPY . /app/
 RUN shards install --production -v
-RUN shards build --static --no-debug --release --production -v -r -t
+RUN shards build --static --no-debug --release --production -v -t
 
 # ===============
 # Result image with one layer
