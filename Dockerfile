@@ -1,32 +1,18 @@
-FROM alpine:latest AS builder
+FROM alpine:edge AS base
 
-RUN  apk add --update --no-cache \
-  curl \
-  gc-dev \
-  gcc \
-  git \
-  libgc++ \
-  glib-dev \
-  libevent-static \
-  musl-dev \
-  openssl-dev \
-  openssl-libs-static \
-  pcre-dev \
-  sqlite-static \
-  tzdata \
-  yaml-static \
-  zlib-dev \
-  zlib-static \
-  crystal shards
+RUN apk update
+RUN apk add --update --no-cache crystal shards
+
+FROM base as builder
 
 WORKDIR /app
 COPY . /app/
 RUN shards install --production -v
-RUN shards build --static --no-debug --release --production -v -t
+RUN shards build --no-debug --release --production --verbose --time --stats --progress
 
 # ===============
 # Result image with one layer
-FROM alpine:latest
+FROM base
 WORKDIR /
 COPY --from=builder /app/bin/app-test .
 ENTRYPOINT ["/app-test"]
