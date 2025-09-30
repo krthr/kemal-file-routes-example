@@ -1,4 +1,5 @@
-FROM crystallang/crystal:1.17-alpine as builder
+ARG ARCH=amd64
+FROM --platform=linux/${ARCH}  crystallang/crystal:1.17-alpine as builder
 
 WORKDIR /app
 COPY . /app/
@@ -7,7 +8,7 @@ RUN shards build --no-debug --release --production -v
 
 # ===============
 # Result image with one layer
-FROM alpine:latest
+FROM --platform=linux/${ARCH}  alpine:latest
 WORKDIR /
 COPY --from=builder /app/bin/app-test .
 ENTRYPOINT ["/app-test"]
