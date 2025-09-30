@@ -1,6 +1,6 @@
 FROM alpine:latest AS builder
 
-RUN  apk add \
+RUN  apk add --update --no-cache \
   curl \
   gc-dev \
   gcc \
@@ -14,9 +14,8 @@ RUN  apk add \
   tzdata \
   yaml-static \
   zlib-dev \
-  zlib-static 
-
-RUN apk add --no-cache crystal shards
+  zlib-static \
+  crystal shards
 
 WORKDIR /app
 COPY . /app/
