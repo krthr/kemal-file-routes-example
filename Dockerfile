@@ -6,6 +6,7 @@ RUN  apk add --update --no-cache \
   gcc \
   git \
   libgc++ \
+  glib-dev \
   libevent-static \
   musl-dev \
   openssl-dev \
