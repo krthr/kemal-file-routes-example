@@ -1,0 +1,34 @@
+version: 2.0
+shards:
+  backtracer:
+    git: https://github.com/sija/backtracer.cr.git
+    version: 1.2.4
+
+  crest:
+    git: https://github.com/mamantoha/crest.git
+    version: 1.5.1
+
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.5.0
+
+  http-client-digest_auth:
+    git: https://github.com/mamantoha/http-client-digest_auth.git
+    version: 0.6.0
+
+  http_proxy:
+    git: https://github.com/mamantoha/http_proxy.git
+    version: 0.13.0
+
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 1.7.2
+
+  kemal-file-routes:
+    git: https://github.com/krthr/kemal-file-routes.git
+    version: 0.1.0+git.commit.2f9ac2f7af3c5eb38953f833df683b5c0e22f222
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
+

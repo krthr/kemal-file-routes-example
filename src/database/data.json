@@ -1,0 +1,154 @@
+{
+  "results": [
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Svetlana",
+        "last": "Sokolović"
+      },
+      "id": {
+        "name": "SID",
+        "value": "730011777"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/45.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/45.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Monsieur",
+        "first": "Julius",
+        "last": "Gaillard"
+      },
+      "id": {
+        "name": "AVS",
+        "value": "756.1938.0580.48"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/98.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/98.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/98.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Alexis",
+        "last": "Abraham"
+      },
+      "id": {
+        "name": "SIN",
+        "value": "836415042"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/89.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/89.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/89.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Anni",
+        "last": "Jarvinen"
+      },
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA416undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/4.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/4.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/4.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Miss",
+        "first": "Diana",
+        "last": "Cunningham"
+      },
+      "id": {
+        "name": "NINO",
+        "value": "OM 98 71 45 U"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/55.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/55.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/55.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Basile",
+        "last": "Lambert"
+      },
+      "id": {
+        "name": "INSEE",
+        "value": "1570933911360 51"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/2.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/2.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/2.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mrs",
+        "first": "Therese",
+        "last": "Ekren"
+      },
+      "id": {
+        "name": "FN",
+        "value": "16107836695"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/85.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/85.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/85.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Adam",
+        "last": "Lavigne"
+      },
+      "id": {
+        "name": "SIN",
+        "value": "352840565"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/33.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/33.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/33.jpg"
+      }
+    },
+    {
+      "name": {
+        "title": "Mr",
+        "first": "Horácio",
+        "last": "da Luz"
+      },
+      "id": {
+        "name": "CPF",
+        "value": "479.525.476-71"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/16.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/16.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/16.jpg"
+      }
+    }
+  ],
+  "info": {
+    "seed": "cb97ac7461734b96",
+    "results": 10,
+    "page": 1,
+    "version": "1.4"
+  }
+}

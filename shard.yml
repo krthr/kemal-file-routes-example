@@ -1,0 +1,20 @@
+name: app-test
+version: 0.1.0
+
+authors:
+  - Wilson Tovar <wtovaragudelo@gmail.com>
+
+targets:
+  app-test:
+    main: src/app-test.cr
+
+crystal: ">= 1.17.1"
+
+license: MIT
+
+dependencies:
+  kemal-file-routes:
+    github: krthr/kemal-file-routes
+
+  crest:
+    github: mamantoha/crest
