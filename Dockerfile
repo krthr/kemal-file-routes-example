@@ -1,6 +1,23 @@
 FROM alpine:latest AS builder
 
+RUN  apk add \
+  curl \
+  gc-dev \
+  gcc \
+  git \
+  libevent-static \
+  musl-dev \
+  openssl-dev \
+  openssl-libs-static \
+  pcre-dev \
+  sqlite-static \
+  tzdata \
+  yaml-static \
+  zlib-dev \
+  zlib-static 
+
 RUN apk add --no-cache crystal shards
+
 WORKDIR /app
 COPY . /app/
 RUN shards install --production -v
