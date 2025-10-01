@@ -4,7 +4,7 @@ A proof-of-concept Crystal application demonstrating file-based server routing w
 
 ## 🎯 Overview
 
-This project showcases the `kemal-file-routes` shard, a work-in-progress library that brings file-based routing to Crystal web applications using the Kemal framework. Similar to how Nitro.js and other modern frameworks handle routing, this approach allows you to define routes simply by creating files in a specific directory structure.
+This project showcases the [`kemal-file-routes`](http://github.com/krthr/kemal-file-routes) shard, a work-in-progress library that brings file-based routing to Crystal web applications using the Kemal framework. Similar to how Nitro.js and other modern frameworks handle routing, this approach allows you to define routes simply by creating files in a specific directory structure.
 
 ## 🚀 Features
 
